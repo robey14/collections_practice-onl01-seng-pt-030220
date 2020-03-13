@@ -27,8 +27,8 @@ end
 
 def kesha_maker(array)
   kesha = []
-  array.each do |word|
-    string = word.split ""
+  array.each do |element|
+    string = element.split ""
     string[2] = "$"
     kesha << string.join
   end
