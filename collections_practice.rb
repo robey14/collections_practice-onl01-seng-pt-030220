@@ -35,8 +35,8 @@ def kesha_maker(array)
   kesha
 end
 
-def find_a(array)
-  array.select{|string| string.start_with?("a")}
+def find_a(arr)
+  arr.select{|string| string.start_with?("a")}
 end
 
 def sum_array(integers)
