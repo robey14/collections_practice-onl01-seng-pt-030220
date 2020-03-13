@@ -40,7 +40,7 @@ def find_a(arr)
 end
 
 def sum_array(integers)
-  integers.inject{|sum, i| sum + i}
+  integers.inject{|element, i| element + i}
 end
 
 def add_s(array)
