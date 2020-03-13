@@ -25,15 +25,6 @@ def reverse_array(integers)
   array
 end
 
-def kesha_maker(array)
-  kesha = []
-  array.each do |string|
-    string = word.split ""
-    string[2] = "$"
-    kesha << string.join
-  end
-  kesha
-end
 
 def find_a(array)
   array.select{|string| string.start_with?("a")}
